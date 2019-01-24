@@ -35,7 +35,7 @@ describe('TestComponent', () => {
 
     fixture.detectChanges();
     const value = debugElement.query(By.css('h1')).nativeElement.innerText;
-    expect(value).toEqual('1');
+    expect(value).toEqual('10');
   });
 
   it('should stop at 0 and show minimum message', () => {
