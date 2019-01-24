@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 71.0.3578 (Windows 10.0.0)" package="" timestamp="2019-01-24T06:00:58" id="0" hostname="IND004" tests="7" errors="0" failures="1" time="0.175">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should create the app" time="0.04" classname="AppComponent"/>
+  <testcase name="AppComponent should have as title 'AngularKarmaTests'" time="0.03" classname="AppComponent"/>
+  <testcase name="AppComponent should render title in a h1 tag" time="0.028" classname="AppComponent"/>
+  <testcase name="TestComponent should increment/decrement value" time="0.019" classname="TestComponent"/>
+  <testcase name="TestComponent should increment in template" time="0.02" classname="TestComponent"/>
+  <testcase name="TestComponent should stop at 0 and show minimum message" time="0.021" classname="TestComponent">
+    <failure type="">Expected 0 to equal 10.
+    at UserContext.eval (webpack:///./src/app/test/test.component.spec.ts?:42:49)
+    at ZoneDelegate.invoke (webpack:///./node_modules/zone.js/dist/zone.js?:390:26)
+    at ProxyZoneSpec.onInvoke (webpack:///./node_modules/zone.js/dist/zone-testing.js?:288:39)
+    at ZoneDelegate.invoke (webpack:///./node_modules/zone.js/dist/zone.js?:389:52)
+</failure>
+  </testcase>
+  <testcase name="TestComponent should stop at 15 and show maximum message" time="0.017" classname="TestComponent"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
