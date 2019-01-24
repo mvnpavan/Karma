@@ -46,7 +46,7 @@ describe('TestComponent', () => {
     fixture.detectChanges();
     const message = debugElement.query(By.css('p.message')).nativeElement.innerText;
 
-    expect(fixture.componentInstance.value).toEqual(0);
+    expect(fixture.componentInstance.value).toEqual(10);
     expect(message).toContain('Minimum');
   });
 
